@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>the red button</title>
+
+    <style>
+        #header{
+            display: grid;
+            width: auto;
+            height: 200px;
+            background-color: skyblue;
+            font-size : 1em;
+            justify-content: center;
+        }
+        #body{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color: khaki;
+            width: auto;
+            height: 1000px;
+            overflow: scroll;
+            margin-left: 15em;
+            margin-right: 15em;
+        } 
+        #footer{
+            display: grid;
+            background-color: springgreen;
+            width: auto;
+            height: 200px;
+            font-size: 2em;
+        }
+        .lottie1:hover{
+            background-color: crimson;
+        }
+        .lottie1:active{
+            background-color: teal;
+        }
+        #bust{
+            display: none;
+            position: absolute;
+        }
+        #touchButton{
+            border-radius: 50%;
+            background-color: red;
+            box-shadow: 1px 4px 0 rgba(0, 0, 0, 0. 10);
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+
+        }
+        #touchButton:active{
+            top: 2px;
+            left: 1px;
+            position: relative;
+        }
+        #touchButton:hover{
+            background-color: crimson;
+        }
+
+    </style>
+</head>
+<body>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <lottie-player src="/bust.json"
+id = "bust"
+background="transparent"
+speed="1"
+mode = "play"
+loop  autoplay
+></lottie-player>
+<div
+id = "header"
+align = "center">
+<p>헤더~</p>
+
+<button
+id="touchButton"
+onclick="">
+    <span>"don't touch"</span>
+    
+</button>
+
+</div>
+
+<div
+id = "body">
+
+<lottie-player src="/animation.json"
+class = "lottie1"
+background="transparent"
+speed="1"
+style="width: 20em;
+height: 20em;"
+mode = "play"
+autoplay></lottie-player>
+
+
+<lottie-player src="/animation.json"
+class = "lottie1"
+background="transparent"
+speed="1"
+style="width: 20em;
+height: 20em;"
+mode = "play"
+loop  autoplay></lottie-player>
+
+<lottie-player src="/animation.json"
+class = "lottie1"
+background="transparent"
+speed="1"
+style="width: 20em;
+height: 20em;"
+mode = "play"
+loop  autoplay></lottie-player>
+
+<lottie-player src="/animation.json"
+class = "lottie1"
+background="transparent"
+speed="1"
+style="width: 20em;
+height: 20em;"
+mode = "play"
+loop  autoplay></lottie-player>
+
+<lottie-player src="/animation.json"
+class = "lottie1"
+background="transparent"
+speed="1"
+style="width: 20em;
+height: 20em;"
+mode = "play"
+loop  autoplay></lottie-player>
+
+<lottie-player src="/animation.json"
+class = "lottie1"
+background="transparent"
+speed="1"
+style="width: 20em;
+height: 20em;"
+mode = "play"
+loop  autoplay></lottie-player>
+
+<lottie-player src="/animation.json"
+class = "lottie1"
+background="transparent"
+speed="1"
+style="width: 20em;
+height: 20em;"
+mode = "play"
+loop  autoplay></lottie-player>
+
+<lottie-player src="/animation.json"
+class = "lottie1"
+background="transparent"
+speed="1"
+style="width: 20em;
+height: 20em;"
+mode = "play"
+loop  autoplay></lottie-player>
+
+<lottie-player src="/animation.json"
+class = "lottie1"
+background="transparent"
+speed="1"
+style="width: 20em;
+height: 20em;"
+mode = "play"
+loop  autoplay></lottie-player>
+
+<lottie-player src="/animation.json"
+class = "lottie1"
+background="transparent"
+speed="1"
+style="width: 20em;
+height: 20em;"
+mode = "play"
+loop  autoplay></lottie-player>
+
+<lottie-player src="/animation.json"
+class = "lottie1"
+background="transparent"
+speed="1"
+style="width: 20em;
+height: 20em;"
+mode = "play"
+loop  autoplay></lottie-player>
+
+</div>
+
+</div>
+<div
+id="footer"
+align = "center">
+<p>풋터~</p>
+<p>copyright By 호영</p>
+
+<p class ="lottie2">qwe</p>
+<p class ="lottie2">qwe</p>
+
+
+</div>
+
+
+<script src = "/infinity.js"></script>
+</body>
+</html>
